@@ -1,0 +1,31 @@
+{
+  "name": "auth_sql_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js",
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "pg": "^8.6.0",
+    "redis": "^3.1.2",
+    "reflect-metadata": "^0.1.13",
+    "stripe": "^8.161.0",
+    "ts-node": "^10.0.0",
+    "typeorm": "^0.2.34"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "nodemon": "^2.0.7"
+  }
+}
